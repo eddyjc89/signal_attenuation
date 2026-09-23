@@ -12,7 +12,9 @@ import matplotlib.patches as mpatch
 
 # main
 def main():
-    pass
+    # Load data
+    df = pandas.read_excel('./data/jack_apCoor.xlsx')
+    print(df.head())
 
 if __name__ == "__main__":
     main()
